@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/bg-desktop.svg),
+     linear-gradient(to right, hsl(257, 40%, 49%),  hsl(257, 40%, 49%));
+    background-repeat: no-repeatt;
+    background-size: contain;
+      /*max-height: 100vh*/
+}
+
+nav img {
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 55px;
+    margin-bottom: 70px;
+}
+
+.wordings {
+    margin-left: 55px;
+    float: left;
+}
+.main-text {
+    width: 60%px;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: px;
+    padding: 50px;
+    
+
+}
+.build {
+    font-family: "Poppins", open+Sans;
+    font-weight: 700;
+    font-size: 40px;
+    width: 27.9rem;
+    color: white;
+    margin-bottom: 2rem;
+    
+    
+}
+.huddle {
+    font-family:  "Poppins", open+Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: rgb(244, 250, 249);
+    margin-right: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.btn {
+    background-color: white;
+    height: 3.5rem;
+    width: 13rem;
+    border-radius: 200px;
+    text-align: center;
+    border-style: none;
+    font-size: 20px;
+    color:  hsl(257, 40%, 49%);
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: aliceblue;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 220px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.fa { 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 50%;
+    outline: 1.5px solid white;
+   
+}
+
+.fa-facebook {
+    margin-right: 10px;
+    color: white;
+}
+
+.fa-twitter {
+    margin-right: 10px;
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.attribution {
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 300px;
+    text-align: center;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+ 
